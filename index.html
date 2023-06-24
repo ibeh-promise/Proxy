@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="author" content="Ibeh Promise" />
+    <meta name="description" content="Pop the bubbles on your screen"/>
+
+    <title>pop bubble</title>
+    <link rel="shortcut icon" href="game_logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="game.css" type="text/css" media="all" />
+</head>
+<body>
+   <center>
+  <div id="home">
+  <h1 class="head">POP BUBBLE</h1>
+  <button id="next-btn">play game</button>
+        </div>
+
+
+<nav id="nav">
+<div class="title">
+ <h1>POP BUBBLES</h1>
+  <b>score:<span id="max-el">0</span><span id="hr-el">0</span><span id="min-el">0</span><span id="score-el">0</span></b> 
+</div>
+
+   <div class="wrapper">
+        <div class="main" id="canvas-el">
+            <div class="bubble" id="bubble-btn">
+            <span id="bubble-num1"></span>
+            </div>
+            <div class="dbl-bubble" id="bubble-btn2">
+                <span id="bubble-num"></span>
+            </div>
+              <div class="tripple-bubble" id="bubble-btn3">
+                <span id="bubble-num3"></span>
+                </div>
+            <div class="forth-bubble" id="bubble-btn4">
+                <span id="bubble-num4"></span>
+                </div>
+            <div class="fifth-bubble" id="bubble-btn5">
+                <span id="bubble-num5"></span>
+                </div>
+        </div>
+        <h3 id="comment-el"></h3>
+   </div>
+   <div id="game-over-screen-el">
+       <div class="screen">
+           <h1 class="game-over">GAME OVER!</h1>
+          <p class="hint"> Tap faster next time! </p>
+           <br />
+           <button id="retry-btn">TRY AGAIN</button>
+           <br />
+          
+           <button id="menu-btn" onclick="mainBtn()">Exit</button>
+           <p>Your bubbles are <span id="record-el"></span></p>
+           
+           </center>
+       </div>
+   </div>
+   <nav>       
+   <footer><address>created by promise</address></footer>
+   <script src="game.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
